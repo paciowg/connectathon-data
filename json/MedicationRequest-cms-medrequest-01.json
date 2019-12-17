@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Lisinopril 10 mg </div>"
+  },
+  "id": "cms-medrequest-01",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-01"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication: Lisinopril 10 mg </div>"
+  },
+  "id": "cms-med-01",
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "314076",
+            "display": "Lisinopril 10 MG Oral Tablet"
+          }
+        ]
+      }
+    }
+  ]
+}

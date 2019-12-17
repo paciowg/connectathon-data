@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Furosemide 20mg </div>"
+  },
+  "id": "cms-medrequest-05",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-05"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

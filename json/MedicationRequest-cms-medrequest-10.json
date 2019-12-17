@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Tylenol 650mg</div>"
+  },
+  "id": "cms-medrequest-10",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-10"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

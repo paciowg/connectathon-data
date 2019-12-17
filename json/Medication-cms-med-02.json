@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication: Atorvastatin 40mg</div>"
+  },
+  "id": "cms-med-02",
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "617311",
+            "display": "Atorvastatin 40 MG Oral Tablet  "
+          }
+        ]
+      }
+    }
+  ]
+}

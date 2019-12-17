@@ -1,0 +1,64 @@
+{
+  "resourceType": "Patient",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Patient: Betsy Smith</div>"
+  },
+  "id": "cms-patient-01",
+  "name": [
+    {
+      "given": [
+        "Betsy"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "414-222-1111"
+    }
+  ],
+  "address": [
+    {
+      "state": "Maryland",
+      "country": "USA",
+      "period": {
+        "start": "1951-02-01",
+        "end": "2016-05-01"
+      }
+    },
+    {
+      "line": [
+        "111 Maple Ct"
+      ],
+      "city": "Ann Arbor",
+      "state": "Texas",
+      "country": "USA",
+      "period": {
+        "start": "2016-05-01"
+      }
+    }
+  ],
+  "birthDate": "1950-11-01",
+  "active": true,
+  "gender": "female",
+  "communication": [
+    {
+      "language": {
+        "text": "English"
+      },
+      "preferred": true
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "U",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "display": "unmarried"
+      }
+    ],
+    "text": "Not married"
+  }
+}

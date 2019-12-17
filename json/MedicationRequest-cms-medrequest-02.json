@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Atorvastatin 40mg</div>"
+  },
+  "id": "cms-medrequest-02",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-02"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

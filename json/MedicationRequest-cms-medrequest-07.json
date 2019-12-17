@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Glargine 24 units</div>"
+  },
+  "id": "cms-medrequest-07",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-07"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

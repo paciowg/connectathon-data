@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication: Sertraline 25mg</div>"
+  },
+  "id": "cms-med-09",
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "312940",
+            "display": "Sertraline 25 MG Oral Tablet  "
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication: Vitamin D 400IU </div>"
+  },
+  "id": "cms-med-04",
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "316901",
+            "display": "Vitamin D 400 UNT  "
+          }
+        ]
+      }
+    }
+  ]
+}

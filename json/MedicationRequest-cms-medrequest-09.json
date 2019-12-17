@@ -1,0 +1,16 @@
+{
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>MedicationRequest: Sertraline 25mg</div>"
+  },
+  "id": "cms-medrequest-09",
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/cms-med-09"
+  },
+  "subject": {
+    "reference": "Patient/{patient_id}"
+  }
+}

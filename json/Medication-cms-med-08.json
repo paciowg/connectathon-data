@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication: Insulin 3 units</div>"
+  },
+  "id": "cms-med-08",
+  "status": "active",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "2179742",
+            "display": "Insulin, regular, human 1 UNT/ML "
+          }
+        ]
+      }
+    }
+  ]
+}
