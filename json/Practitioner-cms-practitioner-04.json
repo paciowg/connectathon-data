@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Practitioner: Retail Pharmacy</div>"
+  },
+  "id": "cms-practitioner-04",
+  "active": true,
+  "name": [
+    {
+      "given": [
+        "Sample"
+      ],
+      "family": "Retail Pharmacy"
+    }
+  ]
+}

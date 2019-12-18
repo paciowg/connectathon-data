@@ -11,6 +11,6 @@
     "reference": "Medication/cms-med-08"
   },
   "subject": {
-    "reference": "Patient/{patient_id}"
+    "reference": "Patient/cms-patient-01"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Practitioner: Lab Services</div>"
+  },
+  "id": "cms-practitioner-08",
+  "active": true,
+  "name": [
+    {
+      "given": [
+        "Sample"
+      ],
+      "family": "Lab Services"
+    }
+  ]
+}

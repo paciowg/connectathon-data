@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Practitioner: Opthamologist</div>"
+  },
+  "id": "cms-practitioner-07",
+  "active": true,
+  "name": [
+    {
+      "given": [
+        "Sample"
+      ],
+      "family": "Opthamologist"
+    }
+  ]
+}
