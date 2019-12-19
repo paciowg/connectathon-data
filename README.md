@@ -7,17 +7,17 @@ All resources are located in the `json/` directory.
 
 ## Server
 
-All the resources found in this repository have also been loaded to the PACIO FHIR sandbox:
+All the resources found in this repository have also been loaded to the HAPI FHIR sandbox:
 
-https://api.logicahealth.org/PACIO/open/
+http://hapi.fhir.org/baseR4/
 
 To search for observations based on Functional Status profile:
 
-https://api.logicahealth.org/PACIO/open/Observation?_profile=http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus
+http://hapi.fhir.org/baseR4/Observation?_profile=http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus
 
 To search for observations based on Cognitive Status profile:
 
-https://api.logicahealth.org/PACIO/open/Observation?_profile=http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-CognitiveStatus
+http://hapi.fhir.org/baseR4/Observation?_profile=http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-CognitiveStatus
 
 ## Profiles
 
@@ -32,35 +32,53 @@ https://paciowg.github.io/functional-status-ig/
 
 This is the full list of resources available on the demo server:
 
-https://api.logicahealth.org/PACIO/open/Patient/cms-patient-01
+### Structure Defintions
 
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-01
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-02
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-03
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-04
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-05
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-06
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-07
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-08
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-09
-https://api.logicahealth.org/PACIO/open/Medication/cms-med-10
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-BundledCognitiveStatus
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-CognitiveStatus
 
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-01
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-02
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-03
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-04
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-05
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-06
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-07
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-08
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-09
-https://api.logicahealth.org/PACIO/open/MedicationRequest/cms-medrequest-10
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-fs-BundledFunctionalStatus
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-fs-FunctionalStatus
 
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-01
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-02
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-03
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-04
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-05
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-06
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-07
-https://api.logicahealth.org/PACIO/open/Practitioner/cms-practitioner-08
+### Supporting Resources
+
+http://hapi.fhir.org/baseR4/Patient/cms-patient-01
+
+http://hapi.fhir.org/baseR4/Medication/cms-med-01
+http://hapi.fhir.org/baseR4/Medication/cms-med-02
+http://hapi.fhir.org/baseR4/Medication/cms-med-03
+http://hapi.fhir.org/baseR4/Medication/cms-med-04
+http://hapi.fhir.org/baseR4/Medication/cms-med-05
+http://hapi.fhir.org/baseR4/Medication/cms-med-06
+http://hapi.fhir.org/baseR4/Medication/cms-med-07
+http://hapi.fhir.org/baseR4/Medication/cms-med-08
+http://hapi.fhir.org/baseR4/Medication/cms-med-09
+http://hapi.fhir.org/baseR4/Medication/cms-med-10
+
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-01
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-02
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-03
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-04
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-05
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-06
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-07
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-08
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-09
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-10
+
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-01
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-02
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-03
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-04
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-05
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-06
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-07
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-08
+
+### Cognitive Status Observations
+
+coming soon
+
+### Functional Status Observations
+
+coming soon

@@ -5,8 +5,9 @@ from tempfile import mkdtemp
 
 import requests
 
-base_url = "https://api.logicahealth.org/PACIO/open"
+# base_url = "https://api.logicahealth.org/PACIO/open"
 # base_url = "https://impact-fhir.mitre.org/r4"
+base_url = "http://hapi.fhir.org/baseR4"
 
 resources = [
     "Patient-cms-patient-01.json",
@@ -67,13 +68,13 @@ def load_implementation_guide(url, files):
 
 if __name__ == "__main__":
     # load cognitive status ig
-    # load_implementation_guide(
-    #     "https://paciowg.github.io/cognitive-status-ig/definitions.json.zip",
-    #     [
-    #         "StructureDefinition-pacio-cs-BundledCognitiveStatus.json",
-    #         "StructureDefinition-pacio-cs-CognitiveStatus.json",
-    #     ],
-    # )
+    load_implementation_guide(
+        "https://paciowg.github.io/cognitive-status-ig/definitions.json.zip",
+        [
+            "StructureDefinition-pacio-cs-BundledCognitiveStatus.json",
+            "StructureDefinition-pacio-cs-CognitiveStatus.json",
+        ],
+    )
 
     # # load functional status ig
     # load_implementation_guide(
@@ -85,6 +86,6 @@ if __name__ == "__main__":
     # )
 
     # load other resources
-    for filename in resources:
-        data = json.load(open(f"./json/{filename}"))
-        upload_resource(data)
+    # for filename in resources:
+    #     data = json.load(open(f"./json/{filename}"))
+    #     upload_resource(data)
