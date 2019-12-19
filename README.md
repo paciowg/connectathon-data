@@ -34,45 +34,45 @@ This is the full list of resources available on the demo server:
 
 ### Structure Defintions
 
-http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-BundledCognitiveStatus
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-BundledCognitiveStatus<br>
 http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-CognitiveStatus
 
-http://hapi.fhir.org/baseR4/StructureDefinition/pacio-fs-BundledFunctionalStatus
+http://hapi.fhir.org/baseR4/StructureDefinition/pacio-fs-BundledFunctionalStatus<br>
 http://hapi.fhir.org/baseR4/StructureDefinition/pacio-fs-FunctionalStatus
 
 ### Supporting Resources
 
 http://hapi.fhir.org/baseR4/Patient/cms-patient-01
 
-http://hapi.fhir.org/baseR4/Medication/cms-med-01
-http://hapi.fhir.org/baseR4/Medication/cms-med-02
-http://hapi.fhir.org/baseR4/Medication/cms-med-03
-http://hapi.fhir.org/baseR4/Medication/cms-med-04
-http://hapi.fhir.org/baseR4/Medication/cms-med-05
-http://hapi.fhir.org/baseR4/Medication/cms-med-06
-http://hapi.fhir.org/baseR4/Medication/cms-med-07
-http://hapi.fhir.org/baseR4/Medication/cms-med-08
-http://hapi.fhir.org/baseR4/Medication/cms-med-09
+http://hapi.fhir.org/baseR4/Medication/cms-med-01<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-02<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-03<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-04<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-05<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-06<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-07<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-08<br>
+http://hapi.fhir.org/baseR4/Medication/cms-med-09<br>
 http://hapi.fhir.org/baseR4/Medication/cms-med-10
 
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-01
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-02
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-03
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-04
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-05
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-06
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-07
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-08
-http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-09
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-01<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-02<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-03<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-04<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-05<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-06<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-07<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-08<br>
+http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-09<br>
 http://hapi.fhir.org/baseR4/MedicationRequest/cms-medrequest-10
 
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-01
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-02
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-03
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-04
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-05
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-06
-http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-07
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-01<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-02<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-03<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-04<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-05<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-06<br>
+http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-07<br>
 http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-08
 
 ### Cognitive Status Observations
