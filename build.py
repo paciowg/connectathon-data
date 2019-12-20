@@ -19,18 +19,8 @@ medications = [
         "code": "318076",
         "codename": "Calcium Carbonate 500 MG Oral Tablet  ",
     },
-    {
-        "name": "Vitamin D 400IU ",
-        "subscr": "Take 2 tabs daily",
-        "code": "316901",
-        "codename": "Vitamin D 400 UNT  ",
-    },
-    {
-        "name": "Furosemide 20mg ",
-        "subscr": "Take daily",
-        "code": "310429",
-        "codename": "Furosemide 20 MG Oral Tablet",
-    },
+    {"name": "Vitamin D 400IU ", "subscr": "Take 2 tabs daily", "code": "316901", "codename": "Vitamin D 400 UNT  ",},
+    {"name": "Furosemide 20mg ", "subscr": "Take daily", "code": "310429", "codename": "Furosemide 20 MG Oral Tablet",},
     {
         "name": "Ferrous Sulfate 325mg",
         "subscr": "Take three times a day prior to meals",
@@ -76,8 +66,9 @@ practitioners = [
 
 
 def build_medications():
+    patient_id = "cms-patient-01"
+
     for index, medication in enumerate(medications, 1):
-        patient_id = "cms-patient-01"
         medication_id = f"cms-med-{index:02}"
         request_id = f"cms-medrequest-{index:02}"
 
@@ -118,15 +109,11 @@ def build_medications():
         }
 
         json.dump(
-            output_medication,
-            open(f"./json/Medication-{medication_id}.json", "w"),
-            indent=2,
+            output_medication, open(f"./json/Medication-{medication_id}.json", "w"), indent=2,
         )
 
         json.dump(
-            output_request,
-            open(f"./json/MedicationRequest-{request_id}.json", "w"),
-            indent=2,
+            output_request, open(f"./json/MedicationRequest-{request_id}.json", "w"), indent=2,
         )
 
 
