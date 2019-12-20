@@ -21,12 +21,15 @@ def build_cognitive(observations):
                 f"<p>Cognitive Status Observation: {observation['event']}</p><p>{observation['question']}</p>"
                 "</div>",
             },
-            "_meta": {
+            "meta": {
                 "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-CognitiveStatus"
             },
             "id": observation_id,
             "status": "final",
-            "code": {"system": "http://loinc.org", "code": observation["loinc"], "display": observation["answer"],},
+            "code": {
+                "coding": {"system": "http://loinc.org", "code": observation["loinc"],},
+                "text": observation["answer"],
+            },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
         }
@@ -50,12 +53,15 @@ def build_functional(observations):
                 f"<p>Functional Status Observation: {observation['event']}</p><p>{observation['question']}</p>"
                 "</div>",
             },
-            "_meta": {
+            "meta": {
                 "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus"
             },
             "id": observation_id,
             "status": "final",
-            "code": {"system": "http://loinc.org", "code": observation["loinc"], "display": observation["answer"],},
+            "code": {
+                "coding": {"system": "http://loinc.org", "code": observation["loinc"],},
+                "text": observation["answer"],
+            },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
         }

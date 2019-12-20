@@ -4,15 +4,17 @@
     "status": "generated",
     "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: SNF MDS Functional Status Assessment within 3 Days of Admission</p><p>What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?</p></div>"
   },
-  "_meta": {
+  "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus"
   },
   "id": "cms-functional-09",
   "status": "final",
   "code": {
-    "system": "http://loinc.org",
-    "code": "11111-1",
-    "display": "Substantial/maximal Assist"
+    "coding": {
+      "system": "http://loinc.org",
+      "code": "11111-1"
+    },
+    "text": "Substantial/maximal Assist"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"

@@ -4,15 +4,17 @@
     "status": "generated",
     "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Cognitive Status Observation: For the last 3 days of the SNF stay</p><p>Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?</p></div>"
   },
-  "_meta": {
+  "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-CognitiveStatus"
   },
   "id": "cms-cognitive-05",
   "status": "final",
   "code": {
-    "system": "http://loinc.org",
-    "code": "54628-3",
-    "display": "Behavior continuously present, does not fluctuate"
+    "coding": {
+      "system": "http://loinc.org",
+      "code": "54628-3"
+    },
+    "text": "Behavior continuously present, does not fluctuate"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"

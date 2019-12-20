@@ -4,15 +4,17 @@
     "status": "generated",
     "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: HHC OASIS Functional Status Assessment at Discharge</p><p>What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?</p></div>"
   },
-  "_meta": {
+  "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus"
   },
   "id": "cms-functional-65",
   "status": "final",
   "code": {
-    "system": "http://loinc.org",
-    "code": "11111-1",
-    "display": "Partial/moderate assistance"
+    "coding": {
+      "system": "http://loinc.org",
+      "code": "11111-1"
+    },
+    "text": "Partial/moderate assistance"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
