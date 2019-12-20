@@ -55,9 +55,9 @@ if __name__ == "__main__":
     )
 
     # load other resources
-
     # these need to load in a certain order.
-    # for prefix in ["Patient", "Medication", "MedicationRequest", "Practitioner", "Observation"]:
-    #     for filename in glob.glob(f"./json/{prefix}-*.json"):
-    #         upload_resource(json.load(open(filename)))
+
+    for prefix in ["Patient", "Medication", "MedicationRequest", "Practitioner", "Observation"]:
+        for filename in glob.glob(f"./json/{prefix}-*.json"):
+            upload_resource(json.load(open(filename)))
 
