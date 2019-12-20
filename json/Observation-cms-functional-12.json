@@ -1,0 +1,18 @@
+{
+  "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: SNF MDS Functional Status Assessment within 3 Days of Admission</p><p>What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?</p></div>"
+  },
+  "id": "cms-functional-12",
+  "status": "final",
+  "code": {
+    "system": "http://loinc.org",
+    "code": "11111-1",
+    "display": "Not attempted due to medical condition or safety concern"
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-11-21T14:11:00+00:00"
+}

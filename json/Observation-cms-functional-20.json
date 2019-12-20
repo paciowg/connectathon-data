@@ -1,0 +1,18 @@
+{
+  "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: SNF MDS Functional Status Assessment within 3 Days of Discharge</p><p>What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?</p></div>"
+  },
+  "id": "cms-functional-20",
+  "status": "final",
+  "code": {
+    "system": "http://loinc.org",
+    "code": "11111-1",
+    "display": "Setup or clean-up assistance"
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-12-03T18:00:00+00:00"
+}

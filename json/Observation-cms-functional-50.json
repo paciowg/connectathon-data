@@ -1,0 +1,18 @@
+{
+  "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: HHC OASIS Functional Status Assessment at Start of Care (SOC)</p><p>What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?</p></div>"
+  },
+  "id": "cms-functional-50",
+  "status": "final",
+  "code": {
+    "system": "http://loinc.org",
+    "code": "11111-1",
+    "display": "Independent"
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-12-04T18:00:00+00:00"
+}

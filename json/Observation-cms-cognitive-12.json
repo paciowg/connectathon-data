@@ -1,0 +1,18 @@
+{
+  "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Cognitive Status Observation: Home Health Discharge Performance</p><p>Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused</p></div>"
+  },
+  "id": "cms-cognitive-12",
+  "status": "final",
+  "code": {
+    "system": "http://loinc.org",
+    "code": "54629-1",
+    "display": "Behavior not present"
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-12-30T14:00:00+00:00"
+}
