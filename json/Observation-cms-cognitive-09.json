@@ -4,6 +4,9 @@
     "status": "generated",
     "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Cognitive Status Observation: Home Health Start of Care Performance</p><p>Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused</p></div>"
   },
+  "_meta": {
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-CognitiveStatus"
+  },
   "id": "cms-cognitive-09",
   "status": "final",
   "code": {

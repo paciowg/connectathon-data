@@ -4,6 +4,9 @@
     "status": "generated",
     "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Functional Status Observation: HHC OASIS Functional Status Assessment at Start of Care (SOC)</p><p>What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?</p></div>"
   },
+  "_meta": {
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-FunctionalStatus"
+  },
   "id": "cms-functional-45",
   "status": "final",
   "code": {
