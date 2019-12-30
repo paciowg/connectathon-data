@@ -1,4 +1,4 @@
-# CMS Connecthon Data
+# CMS Connectathon Data
 
 This repository contains FHIR resources for Cognitive Status and Functional Status that will be used
 during the CMS Connectathon.
@@ -35,7 +35,7 @@ https://paciowg.github.io/functional-status-ig/
 
 This is the full list of resources available on the demo server:
 
-### Structure Defintions
+### Structure Definitions
 
 http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-BundledCognitiveStatus<br>
 http://hapi.fhir.org/baseR4/StructureDefinition/pacio-cs-CognitiveStatus
