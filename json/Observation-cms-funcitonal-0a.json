@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "id": "cms-functional-0a",
+  "meta": {
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-functional-status/StructureDefinition/pacio-fs-BundledFunctionalStatus"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ],
+      "text": "Survey"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-11-21T14:00:00+00:00",
+  "encounter": {
+    "reference": "Encounter/cms-encounter-01",
+    "Display": "Within the first 3 days of SNF admission"
+  },
+  "hasMember": [
+    {
+      "reference": "Observation/cms-functional-01"
+    },
+    {
+      "reference": "Observation/cms-functional-02"
+    },
+    {
+      "reference": "Observation/cms-functional-03"
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01",
+      "display": "Dr. John Carlson, MD"
+    }
+  ]
+}

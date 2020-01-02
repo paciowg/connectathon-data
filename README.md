@@ -84,6 +84,8 @@ http://hapi.fhir.org/baseR4/Encounter/cms-encounter-01
 
 These observations correspond to the Cognitive Status observations in Observations.xlsx
 
+http://hapi.fhir.org/baseR4/Observation/cms-cognitive-0a
+
 http://hapi.fhir.org/baseR4/Observation/cms-cognitive-01<br>
 http://hapi.fhir.org/baseR4/Observation/cms-cognitive-02<br>
 http://hapi.fhir.org/baseR4/Observation/cms-cognitive-03<br>
@@ -100,6 +102,8 @@ http://hapi.fhir.org/baseR4/Observation/cms-cognitive-12
 ### Functional Status Observations
 
 These observations correspond to the Functional Status observations in Observations.xlsx
+
+http://hapi.fhir.org/baseR4/Observation/cms-functional-0a
 
 http://hapi.fhir.org/baseR4/Observation/cms-functional-01<br>
 http://hapi.fhir.org/baseR4/Observation/cms-functional-02<br>
