@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Supervision or touching assistance"
+    "text": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-12-30T14:00:00+00:00"
+  "effectiveDateTime": "2019-12-30T14:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Supervision or touching assistance"
+  }
 }

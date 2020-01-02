@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Partial/moderate Assist"
+    "text": "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:11:00+00:00"
+  "effectiveDateTime": "2019-11-21T14:11:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Partial/moderate Assist"
+  }
 }

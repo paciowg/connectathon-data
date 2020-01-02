@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "54629-1"
     },
-    "text": "Behavior present, fluctuates (comes and goes, changes in severity)"
+    "text": "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-12-03T18:00:00+00:00"
+  "effectiveDateTime": "2019-12-03T18:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Behavior present, fluctuates (comes and goes, changes in severity)"
+  }
 }

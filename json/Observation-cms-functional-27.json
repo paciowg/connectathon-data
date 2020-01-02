@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Substantial/maximal assistance"
+    "text": "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-12-03T18:00:00+00:00"
+  "effectiveDateTime": "2019-12-03T18:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Substantial/maximal assistance"
+  }
 }

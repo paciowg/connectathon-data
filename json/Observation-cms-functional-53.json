@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Independent"
+    "text": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-12-30T14:00:00+00:00"
+  "effectiveDateTime": "2019-12-30T14:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Independent"
+  }
 }

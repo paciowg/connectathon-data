@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "54628-3"
     },
-    "text": "Behavior not present"
+    "text": "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:00:00+00:00"
+  "effectiveDateTime": "2019-11-21T14:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Behavior not present"
+  }
 }

@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Substantial/maximal Assist"
+    "text": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:11:00+00:00"
+  "effectiveDateTime": "2019-11-21T14:11:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  }
 }

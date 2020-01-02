@@ -27,11 +27,15 @@ def build_cognitive(observations):
             "id": observation_id,
             "status": "final",
             "code": {
-                "coding": {"system": "http://loinc.org", "code": observation["loinc"],},
-                "text": observation["answer"],
+                "coding": {"system": "http://loinc.org", "code": observation["questionLoinc"]},
+                "text": observation["question"],
             },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
+            "valueCodeableConcept": {
+                "coding": [{"system": "http://loinc.org", "code": observation["answerLoinc"]}],
+                "text": observation["answer"],
+            },
         }
 
         json.dump(
@@ -59,11 +63,15 @@ def build_functional(observations):
             "id": observation_id,
             "status": "final",
             "code": {
-                "coding": {"system": "http://loinc.org", "code": observation["loinc"],},
-                "text": observation["answer"],
+                "coding": {"system": "http://loinc.org", "code": observation["questionLoinc"]},
+                "text": observation["question"],
             },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
+            "valueCodeableConcept": {
+                "coding": [{"system": "http://loinc.org", "code": observation["answerLoinc"]}],
+                "text": observation["answer"],
+            },
         }
 
         json.dump(

@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "54632-5"
     },
-    "text": "No"
+    "text": "Is there evidence of an acute change in mental status from the patients baseline?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:00:00+00:00"
+  "effectiveDateTime": "2019-11-21T14:00:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "No"
+  }
 }

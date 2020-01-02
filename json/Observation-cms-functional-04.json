@@ -14,10 +14,19 @@
       "system": "http://loinc.org",
       "code": "11111-1"
     },
-    "text": "Substantial/maximal Assist"
+    "text": "What was the patient's usual performance related to their ability come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
   },
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:11:00+00:00"
+  "effectiveDateTime": "2019-11-21T14:11:00+00:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "UNKNOWN"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  }
 }
