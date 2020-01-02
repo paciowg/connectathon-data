@@ -21,7 +21,9 @@
   ],
   "address": [
     {
+      "city": "Baltimore",
       "state": "Maryland",
+      "postalCode": "21234",
       "country": "USA",
       "period": {
         "start": "1951-02-01",
@@ -34,6 +36,7 @@
       ],
       "city": "Ann Arbor",
       "state": "Texas",
+      "postalCode": "76207",
       "country": "USA",
       "period": {
         "start": "2016-05-01"
