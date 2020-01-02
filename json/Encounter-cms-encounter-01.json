@@ -1,0 +1,18 @@
+{
+  "resourceType": "Encounter",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Sample encounter for Betsy Smith.</p></div>"
+  },
+  "id": "cms-encounter-01",
+  "status": "finished",
+  "statusHistory": [
+    {
+      "status": "finished",
+      "period": {
+        "start": "2019-12-28T14:00:00+00:00",
+        "end": "2019-12-28T16:00:00+00:00"
+      }
+    }
+  ]
+}

@@ -78,6 +78,8 @@ http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-06<br>
 http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-07<br>
 http://hapi.fhir.org/baseR4/Practitioner/cms-practitioner-08
 
+http://hapi.fhir.org/baseR4/Encounter/cms-encounter-01
+
 ### Cognitive Status Observations
 
 These observations correspond to the Cognitive Status observations in Observations.xlsx
