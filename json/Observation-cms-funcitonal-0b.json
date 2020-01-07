@@ -1,0 +1,93 @@
+{
+  "resourceType": "Observation",
+  "id": "cms-functional-0b",
+  "meta": {
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-BundledFunctionalStatus"
+  },
+  "status": "final",
+  "code": {
+    "coding": {
+      "system": "https://www.hl7.org/fhir/codesystem-observation-status.html",
+      "code": "final"
+    },
+    "text": "Final"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ],
+      "text": "Survey"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-12-03T14:00:00+00:00",
+  "encounter": {
+    "reference": "Encounter/cms-encounter-01",
+    "Display": "SNF MDS within 3 Days of Discharge"
+  },
+  "hasMember": [
+    {
+      "reference": "Observation/cms-functional-18"
+    },
+    {
+      "reference": "Observation/cms-functional-19"
+    },
+    {
+      "reference": "Observation/cms-functional-20"
+    },
+    {
+      "reference": "Observation/cms-functional-21"
+    },
+    {
+      "reference": "Observation/cms-functional-22"
+    },
+    {
+      "reference": "Observation/cms-functional-23"
+    },
+    {
+      "reference": "Observation/cms-functional-24"
+    },
+    {
+      "reference": "Observation/cms-functional-25"
+    },
+    {
+      "reference": "Observation/cms-functional-26"
+    },
+    {
+      "reference": "Observation/cms-functional-27"
+    },
+    {
+      "reference": "Observation/cms-functional-28"
+    },
+    {
+      "reference": "Observation/cms-functional-29"
+    },
+    {
+      "reference": "Observation/cms-functional-30"
+    },
+    {
+      "reference": "Observation/cms-functional-31"
+    },
+    {
+      "reference": "Observation/cms-functional-32"
+    },
+    {
+      "reference": "Observation/cms-functional-33"
+    },
+    {
+      "reference": "Observation/cms-functional-34"
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01",
+      "display": "Dr. SNF Clinician, MD"
+    }
+  ]
+}

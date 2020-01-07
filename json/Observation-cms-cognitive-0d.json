@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "cms-cognitive-0a",
+  "id": "cms-cognitive-0d",
   "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-BundledCognitiveStatus"
   },
@@ -26,26 +26,26 @@
   "subject": {
     "reference": "Patient/cms-patient-01"
   },
-  "effectiveDateTime": "2019-11-21T14:00:00+00:00",
+  "effectiveDateTime": "2019-12-30T14:00:00+00:00",
   "encounter": {
     "reference": "Encounter/cms-encounter-01",
-    "Display": "Within the first 3 days of SNF admission"
+    "Display": "Home Health Discharge Performance"
   },
   "hasMember": [
     {
-      "reference": "Observation/cms-cognitive-01"
+      "reference": "Observation/cms-cognitive-10"
     },
     {
-      "reference": "Observation/cms-cognitive-02"
+      "reference": "Observation/cms-cognitive-11"
     },
     {
-      "reference": "Observation/cms-cognitive-03"
+      "reference": "Observation/cms-cognitive-12"
     }
   ],
   "performer": [
     {
       "reference": "Practitioner/cms-practitioner-01",
-      "display": "Dr. John Carlson, MD"
+      "display": "Home Health Clinician B"
     }
   ]
 }

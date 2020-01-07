@@ -1,0 +1,93 @@
+{
+  "resourceType": "Observation",
+  "id": "cms-functional-0c",
+  "meta": {
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-BundledFunctionalStatus"
+  },
+  "status": "final",
+  "code": {
+    "coding": {
+      "system": "https://www.hl7.org/fhir/codesystem-observation-status.html",
+      "code": "final"
+    },
+    "text": "Final"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ],
+      "text": "Survey"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "effectiveDateTime": "2019-12-04T14:00:00+00:00",
+  "encounter": {
+    "reference": "Encounter/cms-encounter-01",
+    "Display": "HHC OASIS Functional Status Assessment at Start of Care (SOC)"
+  },
+  "hasMember": [
+    {
+      "reference": "Observation/cms-functional-35"
+    },
+    {
+      "reference": "Observation/cms-functional-36"
+    },
+    {
+      "reference": "Observation/cms-functional-37"
+    },
+    {
+      "reference": "Observation/cms-functional-38"
+    },
+    {
+      "reference": "Observation/cms-functional-39"
+    },
+    {
+      "reference": "Observation/cms-functional-40"
+    },
+    {
+      "reference": "Observation/cms-functional-41"
+    },
+    {
+      "reference": "Observation/cms-functional-42"
+    },
+    {
+      "reference": "Observation/cms-functional-43"
+    },
+    {
+      "reference": "Observation/cms-functional-44"
+    },
+    {
+      "reference": "Observation/cms-functional-45"
+    },
+    {
+      "reference": "Observation/cms-functional-46"
+    },
+    {
+      "reference": "Observation/cms-functional-47"
+    },
+    {
+      "reference": "Observation/cms-functional-48"
+    },
+    {
+      "reference": "Observation/cms-functional-49"
+    },
+    {
+      "reference": "Observation/cms-functional-50"
+    },
+    {
+      "reference": "Observation/cms-functional-51"
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01",
+      "display": "Home Health Clinician A"
+    }
+  ]
+}

@@ -6,6 +6,10 @@
   },
   "id": "cms-encounter-01",
   "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB"
+  },
   "statusHistory": [
     {
       "status": "finished",

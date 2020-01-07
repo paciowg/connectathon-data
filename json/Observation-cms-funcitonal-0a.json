@@ -2,9 +2,16 @@
   "resourceType": "Observation",
   "id": "cms-functional-0a",
   "meta": {
-    "profile": "http://hl7.org/fhir/us/PACIO-functional-functional-status/StructureDefinition/pacio-fs-BundledFunctionalStatus"
+    "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-fs-BundledFunctionalStatus"
   },
   "status": "final",
+  "code": {
+    "coding": {
+      "system": "https://www.hl7.org/fhir/codesystem-observation-status.html",
+      "code": "final"
+    },
+    "text": "Final"
+  },
   "category": [
     {
       "coding": [
@@ -33,6 +40,48 @@
     },
     {
       "reference": "Observation/cms-functional-03"
+    },
+    {
+      "reference": "Observation/cms-functional-04"
+    },
+    {
+      "reference": "Observation/cms-functional-05"
+    },
+    {
+      "reference": "Observation/cms-functional-06"
+    },
+    {
+      "reference": "Observation/cms-functional-07"
+    },
+    {
+      "reference": "Observation/cms-functional-08"
+    },
+    {
+      "reference": "Observation/cms-functional-09"
+    },
+    {
+      "reference": "Observation/cms-functional-10"
+    },
+    {
+      "reference": "Observation/cms-functional-11"
+    },
+    {
+      "reference": "Observation/cms-functional-12"
+    },
+    {
+      "reference": "Observation/cms-functional-13"
+    },
+    {
+      "reference": "Observation/cms-functional-14"
+    },
+    {
+      "reference": "Observation/cms-functional-15"
+    },
+    {
+      "reference": "Observation/cms-functional-16"
+    },
+    {
+      "reference": "Observation/cms-functional-17"
     }
   ],
   "performer": [
