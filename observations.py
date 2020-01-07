@@ -4,7 +4,13 @@ import json
 
 
 def format_date(value):
-    return datetime.strptime(value, "%m/%d/%y %I:%M %p").strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    newdate = None
+    try:
+        newdate = datetime.strptime(value, "%m/%d/%y %I:%M %p")
+    except ValueError:
+        newdate = datetime.strptime(value, "%m/%d/%y %H:%M")
+
+    return newdate.strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
 
 def build_cognitive(observations):
