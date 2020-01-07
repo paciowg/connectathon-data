@@ -1,5 +1,9 @@
 {
   "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Cognitive Status within 3 days of SNF admission.</p></div>"
+  },
   "id": "cms-cognitive-0a",
   "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-BundledCognitiveStatus"
@@ -7,10 +11,10 @@
   "status": "final",
   "code": {
     "coding": {
-      "system": "https://www.hl7.org/fhir/codesystem-observation-status.html",
-      "code": "final"
+      "system": "http://loinc.org",
+      "code": "11332-4"
     },
-    "text": "Final"
+    "text": "History of cognitive function narrative"
   },
   "category": [
     {
@@ -28,8 +32,7 @@
   },
   "effectiveDateTime": "2019-11-21T14:00:00+00:00",
   "encounter": {
-    "reference": "Encounter/cms-encounter-01",
-    "display": "Within the first 3 days of SNF admission"
+    "reference": "Encounter/cms-encounter-01"
   },
   "hasMember": [
     {

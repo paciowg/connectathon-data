@@ -1,5 +1,9 @@
 {
   "resourceType": "Observation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p>Cognitive Status within 3 days of HHC end of care.</p></div>"
+  },
   "id": "cms-cognitive-0d",
   "meta": {
     "profile": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status/StructureDefinition/pacio-cs-BundledCognitiveStatus"
@@ -7,10 +11,10 @@
   "status": "final",
   "code": {
     "coding": {
-      "system": "https://www.hl7.org/fhir/codesystem-observation-status.html",
-      "code": "final"
+      "system": "http://loinc.org",
+      "code": "11332-4"
     },
-    "text": "Final"
+    "text": "History of cognitive function narrative"
   },
   "category": [
     {
