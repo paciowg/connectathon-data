@@ -29,7 +29,7 @@
   "effectiveDateTime": "2019-12-30T14:00:00+00:00",
   "encounter": {
     "reference": "Encounter/cms-encounter-01",
-    "Display": "Home Health Discharge Performance"
+    "display": "Home Health Discharge Performance"
   },
   "hasMember": [
     {

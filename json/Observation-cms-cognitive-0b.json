@@ -29,7 +29,7 @@
   "effectiveDateTime": "2019-12-03T14:00:00+00:00",
   "encounter": {
     "reference": "Encounter/cms-encounter-01",
-    "Display": "For the last 3 days of the SNF stay"
+    "display": "For the last 3 days of the SNF stay"
   },
   "hasMember": [
     {

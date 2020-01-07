@@ -29,7 +29,7 @@
   "effectiveDateTime": "2019-11-21T14:00:00+00:00",
   "encounter": {
     "reference": "Encounter/cms-encounter-01",
-    "Display": "Within the first 3 days of SNF admission"
+    "display": "Within the first 3 days of SNF admission"
   },
   "hasMember": [
     {

@@ -29,7 +29,7 @@
   "effectiveDateTime": "2019-12-04T14:00:00+00:00",
   "encounter": {
     "reference": "Encounter/cms-encounter-01",
-    "Display": "HHC OASIS Functional Status Assessment at Start of Care (SOC)"
+    "display": "HHC OASIS Functional Status Assessment at Start of Care (SOC)"
   },
   "hasMember": [
     {
