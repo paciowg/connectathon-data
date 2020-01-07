@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA61-7"
       }
     ],
     "text": "Behavior not present"

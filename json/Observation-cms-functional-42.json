@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83204-8"
     },
     "text": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA27996-0"
       }
     ],
     "text": "Partial/moderate assistance"

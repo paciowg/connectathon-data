@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA10993-6"
       }
     ],
     "text": "Behavior present, fluctuates (comes and goes, changes in severity)"

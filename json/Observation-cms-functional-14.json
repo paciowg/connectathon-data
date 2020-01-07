@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83192-5"
     },
     "text": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA26735-3"
       }
     ],
     "text": "Not attempted due to medical condition or safety concern"

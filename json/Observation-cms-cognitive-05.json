@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA10992-8"
       }
     ],
     "text": "Behavior continuously present, does not fluctuate"

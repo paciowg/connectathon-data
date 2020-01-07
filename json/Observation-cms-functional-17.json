@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83235-2"
     },
     "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
   },
@@ -24,9 +24,9 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA27996-0"
       }
     ],
-    "text": "Partial/moderate Assist"
+    "text": "Partial/moderate assistance"
   }
 }

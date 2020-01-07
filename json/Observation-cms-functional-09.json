@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83202-2"
     },
     "text": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
   },
@@ -24,9 +24,9 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA11759-0"
       }
     ],
-    "text": "Substantial/maximal Assist"
+    "text": "Substantial/maximal assistance"
   }
 }

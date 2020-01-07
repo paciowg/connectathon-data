@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83204-8"
     },
     "text": "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA28870-6"
       }
     ],
     "text": "Supervision or touching assistance"

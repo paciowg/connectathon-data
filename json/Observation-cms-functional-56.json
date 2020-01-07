@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83210-5"
     },
     "text": "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA27993-7"
       }
     ],
     "text": "Independent"

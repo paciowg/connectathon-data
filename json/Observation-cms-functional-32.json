@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83190-9"
     },
     "text": "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA27996-0"
       }
     ],
     "text": "Partial/moderate assistance"

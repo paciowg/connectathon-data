@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83218-8"
     },
     "text": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
   },
@@ -24,7 +24,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA28870-6"
       }
     ],
     "text": "Supervision or touching assistance"

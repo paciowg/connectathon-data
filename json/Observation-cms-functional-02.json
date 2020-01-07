@@ -12,7 +12,7 @@
   "code": {
     "coding": {
       "system": "http://loinc.org",
-      "code": "11111-1"
+      "code": "83216-2"
     },
     "text": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
   },
@@ -24,9 +24,9 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "UNKNOWN"
+        "code": "LA27996-0"
       }
     ],
-    "text": "Partial/moderate Assist"
+    "text": "Partial/moderate assistance"
   }
 }
