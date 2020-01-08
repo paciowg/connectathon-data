@@ -10,10 +10,12 @@
   "id": "cms-cognitive-04",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "54632-5"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "54632-5"
+      }
+    ],
     "text": "Is there evidence of an acute change in mental status from the patients baseline?"
   },
   "subject": {

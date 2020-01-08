@@ -10,10 +10,12 @@
   "id": "cms-functional-25",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "83204-8"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83204-8"
+      }
+    ],
     "text": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
   },
   "subject": {

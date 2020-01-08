@@ -10,10 +10,12 @@
   "id": "cms-functional-50",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "83202-2"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83202-2"
+      }
+    ],
     "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
   },
   "subject": {

@@ -10,10 +10,12 @@
   },
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "10158-4"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "10158-4"
+      }
+    ],
     "text": "History of functional status narrative"
   },
   "category": [

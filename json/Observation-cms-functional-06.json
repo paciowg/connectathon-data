@@ -10,10 +10,12 @@
   "id": "cms-functional-06",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "83208-9"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83208-9"
+      }
+    ],
     "text": "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
   },
   "subject": {

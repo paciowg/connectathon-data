@@ -10,10 +10,12 @@
   "id": "cms-cognitive-05",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "54628-3"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "54628-3"
+      }
+    ],
     "text": "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
   },
   "subject": {

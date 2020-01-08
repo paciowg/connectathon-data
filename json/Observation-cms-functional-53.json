@@ -10,10 +10,12 @@
   "id": "cms-functional-53",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "83216-2"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83216-2"
+      }
+    ],
     "text": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
   },
   "subject": {

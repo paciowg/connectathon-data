@@ -10,10 +10,12 @@
   "id": "cms-cognitive-09",
   "status": "final",
   "code": {
-    "coding": {
-      "system": "http://loinc.org",
-      "code": "54629-1"
-    },
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "54629-1"
+      }
+    ],
     "text": "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
   },
   "subject": {
