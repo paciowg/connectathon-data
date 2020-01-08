@@ -33,17 +33,13 @@ def build_cognitive(observations):
             "id": observation_id,
             "status": "final",
             "code": {
-                "coding": [
-                    {"system": "http://loinc.org", "code": observation["questionLoinc"]}
-                ],
+                "coding": [{"system": "http://loinc.org", "code": observation["questionLoinc"]}],
                 "text": observation["question"],
             },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
             "valueCodeableConcept": {
-                "coding": [
-                    {"system": "http://loinc.org", "code": observation["answerLoinc"]}
-                ],
+                "coding": [{"system": "http://loinc.org", "code": observation["answerLoinc"]}],
                 "text": observation["answer"],
             },
             "performer": [{"reference": "Practitioner/cms-practitioner-01"}],
@@ -74,17 +70,13 @@ def build_functional(observations):
             "id": observation_id,
             "status": "final",
             "code": {
-                "coding": [
-                    {"system": "http://loinc.org", "code": observation["questionLoinc"]}
-                ],
+                "coding": [{"system": "http://loinc.org", "code": observation["questionLoinc"]}],
                 "text": observation["question"],
             },
             "subject": {"reference": f"Patient/{patient_id}"},
             "effectiveDateTime": format_date(observation["date"]),
             "valueCodeableConcept": {
-                "coding": [
-                    {"system": "http://loinc.org", "code": observation["answerLoinc"]}
-                ],
+                "coding": [{"system": "http://loinc.org", "code": observation["answerLoinc"]}],
                 "text": observation["answer"],
             },
             "performer": [{"reference": "Practitioner/cms-practitioner-01"}],

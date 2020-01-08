@@ -6,9 +6,11 @@ from tempfile import mkdtemp
 
 import requests
 
-# base_url = "https://api.logicahealth.org/PACIO/open"
-# base_url = "https://impact-fhir.mitre.org/r4"
-base_url = "http://hapi.fhir.org/baseR4"
+# base_url = "http://hapi.fhir.org/baseR4"
+base_url = "https://api.logicahealth.org/PACIO/open"
+
+# auth = ("admin", "password")
+auth = None
 
 
 def upload_resource(data):
@@ -17,7 +19,7 @@ def upload_resource(data):
     print(resource_url)
 
     try:
-        resp = requests.put(resource_url, json=data)
+        resp = requests.put(resource_url, json=data, auth=auth)
         resp.raise_for_status()
     except requests.exceptions.HTTPError:
         print(resp.json())
