@@ -30,5 +30,10 @@
       }
     ],
     "text": "No"
-  }
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01"
+    }
+  ]
 }

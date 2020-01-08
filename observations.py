@@ -46,6 +46,7 @@ def build_cognitive(observations):
                 ],
                 "text": observation["answer"],
             },
+            "performer": [{"reference": "Practitioner/cms-practitioner-01"}],
         }
 
         json.dump(
@@ -86,6 +87,7 @@ def build_functional(observations):
                 ],
                 "text": observation["answer"],
             },
+            "performer": [{"reference": "Practitioner/cms-practitioner-01"}],
         }
 
         json.dump(
